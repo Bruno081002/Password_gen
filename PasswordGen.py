@@ -76,10 +76,10 @@ Checkbutton(m, text='The Password must have Digits?').grid(row=3, column=0, padx
 Checkbutton(m, text='The Password must have whitespaces?').grid(row=5, column=0, padx=10, pady=5, sticky='e')
 Checkbutton(m, text='The Password must have pontuantion?').grid(row=8, column=0, padx=10, pady=5, sticky='e')
 
-tk.Button(m, text="Generate", width=25, command=password_generation).grid(row=10,columnspan=2, pady=15)
+tk.Button(m, text="Generate", width=25, command=password_generation).grid(row=13,columnspan=2, pady=15)
 
 res = Label(m, text="", fg="blue", wraplength=3000)
-res.grid(row = 6, column = 0, columnspan=2 ,pady=5)
+res.grid(row = 10, column = 0, columnspan=2 ,pady=5)
 
 
 m.mainloop()
